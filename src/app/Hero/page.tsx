@@ -47,7 +47,7 @@ const Home = () => {
         <div className="lg:w-[1440px] lg:h-[716px] bg-[#FAFAFA] gap-3 ">
           <div className="flex gap-4 relative ">
             <Image
-              className="lg:w-[510px] lg:h-[500px]   "
+              className="lg:w-[510px] lg:h-[500px]  ml-40 "
               alt="image"
               src={require("../../../public/images/filter.png")}
             />
@@ -344,7 +344,7 @@ const Home = () => {
           </div>
         </div>
         {/* 5page */}
-        <div className="lg:w-[1440px] lg:h-[682px] bg-white  ">
+        <div className="lg:w-[1440px] lg:h-[682px] bg-white ml-10 ">
           <div className="lg:w-[704px] lg:h-[682px] flex ">
             <Image
               className=""
